@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin version="1.0">
+    <title xml:lang="ko">실시간 데이터 모니터링 위젯 기본스킨</title>
+    <description xml:lang="ko">실시간 데이터 모니터링 위젯 기본스킨입니다.</description>
+    <version>2.0</version>
+    <date>2012.08.04</date>
+    <link>http://www.kikni.com</link>
+	
+    <author email_address="developer@kikni.com" link="http://project.kikni.com/">
+        <name xml:lang="ko">키큰아이</name>
+    </author>	
+	
+    <colorset>
+        <color name="white">
+            <title xml:lang="ko">기본값</title>
+        </color>
+    </colorset>
+</skin>

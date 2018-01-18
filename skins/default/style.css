@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+#k {
+	background-color: white;
+	border: 1px solid #dfdfcf;
+	padding: 10px 14px 10px 14px;
+	margin-top: 5px;
+	line-height: 17px;
+	text-align: left;
+	font-size: 8pt;
+	color: #777;
+}
+
+	#k .c {
+		font-weight: bold;
+}
+	#k .d {
+		text-align:right;
+}

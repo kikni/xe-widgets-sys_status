@@ -1,0 +1,26 @@
+<?php if(!defined("__ZBXE__")) exit(); ?>
+<!--@if(($args->admin_print  == "Y" && $logged_info->is_admin == 'Y') || ($args->admin_print == 'N' || !$args->admin_print))-->
+	<!--%import("style.css")-->
+	<div id="k">
+	<p class="c">실시간 데이터 모니터링</p>
+	<!--@if($data_info->data_type  == "0")-->
+	DATA :{$data_info->data_hard + 0} MB<br />
+	<!--@elseif($data_info->data_type == "1")-->
+	DATA :{$data_info->data_hard + 0} MB / {$data_info->data_hard2 + 0}  MB<br />
+	<!--@elseif($data_info->data_type == "2")-->
+	DATA :{$data_info->data_hard + 0} MB / {$data_info->data_hard3 + 0}  MB<br />
+	<!--@elseif($data_info->data_type == "3")-->
+	DATA :{$data_info->data_hard2 + 0} MB / {$data_info->data_hard3 + 0}  MB<br />
+	<!--@elseif($data_info->data_type == "4")-->
+	<!--@else-->
+	DATA :{$data_info->data_hard + 0} MB<br />
+	<!--@end-->
+	<!--@if($data_info->db_type  == "0")-->
+	MYSQL : {$data_info->db_hard + 0} MB
+	<!--@elseif($data_info->db_type == "1")-->
+	<!--@else-->
+	MYSQL : {$data_info->db_hard + 0} MB
+	<!--@end-->
+	<p class="d">Made By CM</p>
+	</div>
+<!--@end-->
